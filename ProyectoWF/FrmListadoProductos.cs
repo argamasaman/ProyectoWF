@@ -140,5 +140,22 @@ namespace ProyectoWF
             }
         }
 
+        private void butAñadir_Click(object sender, EventArgs e)
+        {
+            int modo=0;
+            int clave=-1;
+
+            FormularioProductos FormularioProductos = new FormularioProductos(modo,clave);
+            
+        }
+
+        private void butEditar_Click(object sender, EventArgs e)
+        {
+            int modo = 1;
+            
+            DataGridViewRow fila = listaProductos.SelectedRows[0];
+            int clave=(int)fila.Cells["ProductoID"].Value;
+            FormularioProductos FormularioProductos = new FormularioProductos(modo, clave);
+        }
     }
 }

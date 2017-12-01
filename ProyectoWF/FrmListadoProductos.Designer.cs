@@ -71,6 +71,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.AutoSize = true;
             this.groupBox1.Controls.Add(this.txtCategoria);
             this.groupBox1.Controls.Add(this.txtNombre);
             this.groupBox1.Controls.Add(this.label3);
@@ -89,7 +90,7 @@
             this.txtCategoria.Location = new System.Drawing.Point(87, 63);
             this.txtCategoria.Margin = new System.Windows.Forms.Padding(10);
             this.txtCategoria.Name = "txtCategoria";
-            this.txtCategoria.Size = new System.Drawing.Size(180, 20);
+            this.txtCategoria.Size = new System.Drawing.Size(764, 20);
             this.txtCategoria.TabIndex = 15;
             // 
             // txtNombre
@@ -97,7 +98,7 @@
             this.txtNombre.Location = new System.Drawing.Point(87, 23);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(10);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(180, 20);
+            this.txtNombre.Size = new System.Drawing.Size(764, 20);
             this.txtNombre.TabIndex = 14;
             this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
@@ -153,6 +154,7 @@
             this.butAñadir.Size = new System.Drawing.Size(75, 32);
             this.butAñadir.TabIndex = 0;
             this.butAñadir.UseVisualStyleBackColor = true;
+            this.butAñadir.Click += new System.EventHandler(this.butAñadir_Click);
             // 
             // butEditar
             // 
@@ -163,6 +165,7 @@
             this.butEditar.Size = new System.Drawing.Size(75, 32);
             this.butEditar.TabIndex = 1;
             this.butEditar.UseVisualStyleBackColor = true;
+            this.butEditar.Click += new System.EventHandler(this.butEditar_Click);
             // 
             // butBorrar
             // 
@@ -221,6 +224,7 @@
             this.Name = "FrmListadoProductos";
             this.Text = "Formulario de productos";
             this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);

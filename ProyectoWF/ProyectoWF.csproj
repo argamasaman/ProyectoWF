@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="FormularioProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioProductos.Designer.cs">
+      <DependentUpon>FormularioProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmListadoProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormularioProductos.resx">
+      <DependentUpon>FormularioProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmListadoProductos.resx">
       <DependentUpon>FrmListadoProductos.cs</DependentUpon>
     </EmbeddedResource>
