@@ -11,6 +11,21 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +47,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdvancedDataGridView, Version=0.1.0.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ADGV.0.1.0.10\lib\net40\AdvancedDataGridView.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -47,21 +65,115 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
-    <Compile Include="FrmListadoProductos.cs">
-      <SubType>Form</SubType>
-    </Compile>
+
+
     <Compile Include="FrmListadoProductos.Designer.cs">
       <DependentUpon>FrmListadoProductos.cs</DependentUpon>
+
+
+    <Compile Include="FrmListadoEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoEmpleados.Designer.cs">
+      <DependentUpon>FrmListadoEmpleados.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmListadoEmpleados.resx">
+      <DependentUpon>FrmListadoEmpleados.cs</DependentUpon>
+
+
+    <Compile Include="FormularioProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioProductos.Designer.cs">
+      <DependentUpon>FormularioProductos.cs</DependentUpon>
+    </Compile>
+
+    <EmbeddedResource Include="FormularioProductos.resx">
+      <DependentUpon>FormularioProductos.cs</DependentUpon>
+
+
+    <Compile Include="FrmListadoClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoClientes.Designer.cs">
+      <DependentUpon>FrmListadoClientes.cs</DependentUpon>
+    </Compile>
+
+    <EmbeddedResource Include="FrmListadoClientes.resx">
+      <DependentUpon>FrmListadoClientes.cs</DependentUpon>
+
+
+    <Compile Include="FormProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProveedores.Designer.cs">
+      <DependentUpon>FormProveedores.cs</DependentUpon>
+
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+
     <EmbeddedResource Include="FrmListadoProductos.resx">
       <DependentUpon>FrmListadoProductos.cs</DependentUpon>
+
+    <EmbeddedResource Include="FormProveedores.resx">
+      <DependentUpon>FormProveedores.cs</DependentUpon>
+
+    <Compile Include="FormularioPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioPedidos.Designer.cs">
+      <DependentUpon>FormularioPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioPrincipal.Designer.cs">
+      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormularioPedidos.resx">
+      <DependentUpon>FormularioPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioPrincipal.resx">
+      <DependentUpon>FormularioPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+
+
+
+
+
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+
+
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+
+    <None Include="Properties\DataSources\FormularioPedidos.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\ProyectoWF.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\ProyectoWF.Properties.Resources1.datasource" />
+    <None Include="Properties\DataSources\ProyectoWF.Properties.Settings.datasource" />
+
+
+
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -76,9 +188,104 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="ProyectoWFDataSet1.xsc">
+      <DependentUpon>ProyectoWFDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProyectoWFDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProyectoWFDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProyectoWFDataSet1.xss">
+      <DependentUpon>ProyectoWFDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_icon-icons.com_61193.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\183209-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_plus_103681.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_icon-minus_211864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_icon-minus_211864 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_format-indent-more_297971.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_format-indent-more_29797-ConvertImage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_windows_8_finance_purchase_order-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_icon-person-stalker_211873 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_icons_exit2_1564506.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if__p_copy_2560347 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if__e_2560315.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\if_074_ArchieveBox_183203 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\buscar.png" />
+    <Content Include="Imagenes\editar.png" />
+    <Content Include="Imagenes\eliminar.png" />
+    <Content Include="Imagenes\nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\índice.png" />
+
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar-cancelar-icono-4935-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\buscar.png" />
+    <Content Include="Imagenes\editar.png" />
+    <Content Include="Imagenes\eliminar.png" />
+    <Content Include="Imagenes\nuevo.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Imagenes\busqueda.png" />

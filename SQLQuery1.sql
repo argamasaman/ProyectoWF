@@ -1,0 +1,1 @@
+﻿insert into Clientes (Nombre)

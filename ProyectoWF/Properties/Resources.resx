@@ -118,6 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+
+
+
+  <data name="índice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\índice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eliminar-cancelar-icono-4935-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eliminar-cancelar-icono-4935-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+
+
   <data name="nuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagenes\nuevo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -127,7 +138,48 @@
   <data name="eliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagenes\eliminar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+
   <data name="busqueda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagenes\busqueda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+  <data name="buscar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagenes\buscar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+  <data name="if_icon-person-stalker_211873 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_icon-person-stalker_211873 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_format-indent-more_29797-ConvertImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_format-indent-more_29797-ConvertImage1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_icon-minus_211864 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_icon-minus_211864 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_windows_8_finance_purchase_order-8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8_windows_8_finance_purchase_order-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if__e_2560315" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if__e_2560315.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if__p_copy_2560347 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if__p_copy_2560347 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="183209-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\183209-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_plus_103681" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_plus_103681.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_icons_exit2_1564506" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_icons_exit2_1564506.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_format-indent-more_29797" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_format-indent-more_297971.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="if_074_ArchieveBox_183203 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_074_ArchieveBox_183203 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+
+
+
   </data>
 </root>

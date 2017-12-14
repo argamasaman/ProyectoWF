@@ -1,0 +1,9 @@
+﻿insert into Clientes (ContactoNombre,NombreCompania,CodigoPostal,Pais) values ('lola','prueba2','3000','España');
+insert into Clientes (ContactoNombre,NombreCompania,CodigoPostal,Pais) values ('pepe2','prueba3','41000','Alemania');
+insert into Clientes (ContactoNombre,NombreCompania,CodigoPostal,Pais) values ('juan','prueba4','30000','China');
+insert into Clientes (ContactoNombre,NombreCompania,CodigoPostal,Pais) values ('alfonso','prueba1','31000','España');
+insert into Clientes (ContactoNombre,NombreCompania,CodigoPostal,Pais) values ('rodrigo','prueba2','40000','España');
+insert into Clientes (ContactoNombre,NombreCompania,CodigoPostal,Pais) values ('paquito','prueba3','31000','Alemania');
+insert into Clientes (ContactoNombre,NombreCompania,CodigoPostal,Pais) values ('Dario','prueba1','32000','China');
+insert into Clientes (ContactoNombre,NombreCompania,CodigoPostal,Pais) values ('gema','prueba4','20000','España');
+insert into Clientes (ContactoNombre,NombreCompania,CodigoPostal,Pais) values ('cristian','prueba4','33000','Cataluña');

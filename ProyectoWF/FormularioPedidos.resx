@@ -117,12 +117,59 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="splitContainer1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="splitContainer2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="splitContainer3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="idProducto.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nombreProd.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cantidad.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="descuento.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="precioUnidad.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="precio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>114, 17</value>
-  </metadata>
-
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABYAAAAwQAAAPAAAADXAAAAbQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAG8AAADfAAAA/wAAAOEAAABcAAAAcgAAAPIAAABzAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAZAAAAhwAAAO4AAAD/AAAA/wAAAP8AAABgAAAAAAAAAAAAAABaAAAA9QAA
+        ABgAAAAAAAAAAAAAAAAAAAA1AAAA8AAAAP8AAAD/AAAA/wAAAP8AAAD8AAAAMgAAAAAAAAAAAAAAAQAA
+        ANMAAACBAAAAAAAAAAAAAAAAAAAAuwAAAP8AAAD/AAAA/wAAAOUAAACCAAAAHgAAAAAAAAAAAAAAEQAA
+        AAQAAABqAAAA4wAAAAMAAAAAAAAAAAAAAOMAAAD9AAAAuAAAAFEAAAAEAAAAAAAAAA0AAABqAAAAvQAA
+        APsAAABcAAAAEAAAAPcAAABGAAAAAAAAAAAAAABoAAAAIgAAAAwAAABHAAAADwAAAIoAAABdAAAA3AAA
+        AIwAAAA4AAAAAQAAAAAAAACpAAAAowAAAAAAAAAAAAAAAAAAAAAAAAA2AAAA+gAAACgAAACPAAAABQAA
+        AAAAAAADAAAAQQAAAJEAAAA3AAAATgAAAPMAAAAKAAAAAAAAAAAAAAAAAAAAAQAAAN0AAABvAAAAAQAA
+        AC0AAABEAAAA6QAAAPgAAAC0AAAAKwAAAAYAAADuAAAAVgAAAAAAAAAAAAAAAAAAAAAAAACBAAAAzAAA
+        ACUAAADqAAAAJgAAAFkAAAAPAAAAAAAAAAAAAAAAAAAAnQAAAK4AAAAAAAAAAAAAAAAAAAAAAAAAJQAA
+        AP4AAAAqAAAAAAAAAAAAAAAHAAAAWQAAAJ8AAADkAAAAbwAAAEYAAAD2AAAADQAAAAAAAAAAAAAAAAAA
+        AAAAAADGAAAAhwAAAB0AAACdAAAARgAAAOUAAAClAAAAXwAAAA8AAAAEAAAA7AAAAFkAAAAAAAAAAAAA
+        AAAAAAAAAAAAaQAAAOIAAAAVAAAAdQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ0AAACsAAAAAAAA
+        AAAAAAAAAAAAAAAAABMAAAD4AAAAQgAAAAAAAAAAAAAAAAAAACIAAABVAAAAhwAAALoAAADuAAAA5wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAArgAAALoAAACJAAAAuwAAAO0AAAD/AAAA6gAAALcAAACFAAAAUgAA
+        ABoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAADkAAAAtgAAAIQAAABRAAAAHgAAAAAAAAAAAAAAAAAA
+        AAAAAAAA+B8AAOAPAACAxwAAAMcAAAGDAAAEAwAAABMAAMEBAADAAQAA4DkAAOMAAADwAAAA8PwAAPHA
+        AAD4AAAA+B8AAA==
+</value>
+  </data>
 </root>
