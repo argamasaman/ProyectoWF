@@ -64,6 +64,11 @@ namespace ProyectoWF.Properties {
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
 
+        internal static System.Drawing.Bitmap buscar {
+            get {
+                object obj = ResourceManager.GetObject("buscar", resourceCulture);
+
+
         internal static System.Drawing.Bitmap eliminar_cancelar_icono_4935_128 {
             get {
                 object obj = ResourceManager.GetObject("eliminar-cancelar-icono-4935-128", resourceCulture);
@@ -77,6 +82,7 @@ namespace ProyectoWF.Properties {
             get {
                 object obj = ResourceManager.GetObject("183209-16", resourceCulture);
 
+
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -89,9 +95,15 @@ namespace ProyectoWF.Properties {
             get {
                 object obj = ResourceManager.GetObject("editar", resourceCulture);
 
+
+        internal static System.Drawing.Bitmap editar {
+            get {
+                object obj = ResourceManager.GetObject("editar", resourceCulture);
+
         internal static System.Drawing.Bitmap icons8_windows_8_finance_purchase_order_8 {
             get {
                 object obj = ResourceManager.GetObject("icons8_windows_8_finance_purchase_order-8", resourceCulture);
+
 
                 return ((System.Drawing.Bitmap)(obj));
             }
@@ -100,6 +112,7 @@ namespace ProyectoWF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+
 
         internal static System.Drawing.Bitmap eliminar {
             get {
@@ -109,6 +122,7 @@ namespace ProyectoWF.Properties {
             get {
                 object obj = ResourceManager.GetObject("if__e_2560315", resourceCulture);
 
+
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +130,7 @@ namespace ProyectoWF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+
 
         internal static System.Drawing.Bitmap nuevo {
             get {
@@ -200,6 +215,7 @@ namespace ProyectoWF.Properties {
         internal static System.Drawing.Bitmap if_plus_103681 {
             get {
                 object obj = ResourceManager.GetObject("if_plus_103681", resourceCulture);
+
 
                 return ((System.Drawing.Bitmap)(obj));
             }

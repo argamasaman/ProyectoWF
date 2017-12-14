@@ -66,6 +66,16 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
 
+    <Compile Include="FrmListadoEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListadoEmpleados.Designer.cs">
+      <DependentUpon>FrmListadoEmpleados.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmListadoEmpleados.resx">
+      <DependentUpon>FrmListadoEmpleados.cs</DependentUpon>
+
+
     <Compile Include="FormularioProductos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +140,7 @@
 
 
 
+
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -149,6 +160,7 @@
     <None Include="Properties\DataSources\ProyectoWF.Properties.Resources.datasource" />
     <None Include="Properties\DataSources\ProyectoWF.Properties.Resources1.datasource" />
     <None Include="Properties\DataSources\ProyectoWF.Properties.Settings.datasource" />
+
 
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -252,9 +264,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\índice.png" />
+
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eliminar-cancelar-icono-4935-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\buscar.png" />
+    <Content Include="Imagenes\editar.png" />
+    <Content Include="Imagenes\eliminar.png" />
+    <Content Include="Imagenes\nuevo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
