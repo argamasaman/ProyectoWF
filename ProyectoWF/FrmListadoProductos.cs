@@ -174,6 +174,8 @@ namespace ProyectoWF
             int clave=-1;
 
             FormularioProductos FormularioProductos = new FormularioProductos(modo,clave);
+            FormularioProductos.FormClosed += new FormClosedEventHandler(formProductos);
+            FormularioProductos.ShowDialog();
             
         }
 
@@ -194,6 +196,11 @@ namespace ProyectoWF
             DataGridViewRow fila = listaProductos.SelectedRows[0];
             int clave = (int)fila.Cells["ProductoID"].Value;
             FormularioProductos FormularioProductos = new FormularioProductos(modo, clave);
+        }
+
+        private void formProductos(object sender, FormClosedEventArgs e)
+        {
+            cargar(listaProductos);
         }
     }
 }
