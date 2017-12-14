@@ -148,10 +148,10 @@
             // butAñadir
             // 
             this.butAñadir.Image = global::ProyectoWF.Properties.Resources.nuevo;
-            this.butAñadir.Location = new System.Drawing.Point(609, 10);
+            this.butAñadir.Location = new System.Drawing.Point(715, 10);
             this.butAñadir.Margin = new System.Windows.Forms.Padding(10);
             this.butAñadir.Name = "butAñadir";
-            this.butAñadir.Size = new System.Drawing.Size(75, 32);
+            this.butAñadir.Size = new System.Drawing.Size(22, 19);
             this.butAñadir.TabIndex = 0;
             this.butAñadir.UseVisualStyleBackColor = true;
             this.butAñadir.Click += new System.EventHandler(this.butAñadir_Click);
@@ -159,10 +159,10 @@
             // butEditar
             // 
             this.butEditar.Image = global::ProyectoWF.Properties.Resources.editar;
-            this.butEditar.Location = new System.Drawing.Point(704, 10);
+            this.butEditar.Location = new System.Drawing.Point(757, 10);
             this.butEditar.Margin = new System.Windows.Forms.Padding(10);
             this.butEditar.Name = "butEditar";
-            this.butEditar.Size = new System.Drawing.Size(75, 32);
+            this.butEditar.Size = new System.Drawing.Size(22, 19);
             this.butEditar.TabIndex = 1;
             this.butEditar.UseVisualStyleBackColor = true;
             this.butEditar.Click += new System.EventHandler(this.butEditar_Click);
@@ -173,7 +173,7 @@
             this.butBorrar.Location = new System.Drawing.Point(799, 10);
             this.butBorrar.Margin = new System.Windows.Forms.Padding(10);
             this.butBorrar.Name = "butBorrar";
-            this.butBorrar.Size = new System.Drawing.Size(75, 32);
+            this.butBorrar.Size = new System.Drawing.Size(22, 19);
             this.butBorrar.TabIndex = 2;
             this.butBorrar.UseVisualStyleBackColor = true;
             this.butBorrar.Click += new System.EventHandler(this.btBorrar_Click);
