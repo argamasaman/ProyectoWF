@@ -157,5 +157,15 @@ namespace ProyectoWF
             int clave=(int)fila.Cells["ProductoID"].Value;
             FormularioProductos FormularioProductos = new FormularioProductos(modo, clave);
         }
+
+        
+        private void listaProductos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int modo=2;
+
+            DataGridViewRow fila = listaProductos.SelectedRows[0];
+            int clave = (int)fila.Cells["ProductoID"].Value;
+            FormularioProductos FormularioProductos = new FormularioProductos(modo, clave);
+        }
     }
 }

@@ -200,6 +200,7 @@
             this.listaProductos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.listaProductos.Size = new System.Drawing.Size(864, 423);
             this.listaProductos.TabIndex = 4;
+            this.listaProductos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.listaProductos_CellDoubleClick);
             // 
             // busqueda
             // 
