@@ -19,12 +19,16 @@ namespace ProyectoWF
         SqlConnection con;
         BindingSource bs;
 
+        private int anchoMdi = 1200;
+        private int anchoMinimo = 600;
+        private int altoMinimo = 400;
         DataTable table;
         SqlDataAdapter adapter;
         SqlCommand cmd;
 
-        public FrmListadoProductos()
+        public FrmListadoProductos(int ancho)
         {
+
             InitializeComponent();
             splitContainer1.IsSplitterFixed = true;
             con = Conexion.getConexion();
@@ -34,10 +38,33 @@ namespace ProyectoWF
             //Ocultar
             listaProductos.Columns["ProductoID"].Visible = false;
             listaProductos.Columns["Imagen"].Visible = false;
-            
+            ajustarFormulario(ancho);
         }
 
-        
+        public void ajustarFormulario(int anchoNuevoMdi)
+        {
+            splitContainer1.Panel1Collapsed = true;
+            double porcentaje = (double)anchoNuevoMdi / (double)anchoMdi;
+            anchoMdi = anchoNuevoMdi;
+
+
+            int ancho = (int)(this.Width * porcentaje);
+            int alto = (int)(this.Height * porcentaje);
+
+            if (ancho > this.anchoMinimo && alto > this.altoMinimo)
+            {
+
+                this.Width = ancho;
+                this.Height = alto;
+            }
+            else
+            {
+                this.Width = anchoMinimo;
+                this.Height = altoMinimo;
+            }
+
+        }
+
 
         public void cargar(DataGridView listaProductos)
         {
@@ -75,6 +102,7 @@ namespace ProyectoWF
            
         }
 
+        
         
 
         private void txtNombre_TextChanged(object sender, EventArgs e)
